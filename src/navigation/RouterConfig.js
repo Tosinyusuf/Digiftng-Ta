@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { Routes, Route } from 'react-router-dom'
-import { Layout } from '../layout'
-import { PERSONAL_HOME, BUSINESS_HOME } from './CONSTANTS'
-import { Personal, Business, NotFound } from '../pages/index'
-import { ThemeProvider } from 'styled-components'
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Layout } from '../layout';
+import { PERSONAL_HOME, BUSINESS_HOME } from './CONSTANTS';
+import { Personal, Business, NotFound } from '../pages/index';
+import { ThemeProvider } from 'styled-components';
 
 // set the theme for the light toggle
 const LightTheme = {}

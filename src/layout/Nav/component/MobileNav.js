@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { LinkRoute } from '../../../components/LinkRoute'
 import Logo from '../../../assets/images/Logo.svg'
-import styled from 'styled-components/macro'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
 import HamburgerMenu from '../../../assets/images/HamMenu.svg'
 import { Toggle } from './Toggle'
 import { Auth } from './Auth'
@@ -105,4 +106,8 @@ export const MobileNav = ({ changeTheme }) => {
       </NavMenu>
     </>
   )
+}
+
+MobileNav.propTypes = {
+  changeTheme: PropTypes.func,
 }

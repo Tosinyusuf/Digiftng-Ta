@@ -35,8 +35,7 @@ export const Layout = ({ theme, setTheme, children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node,
-  theme: PropTypes.bool,
-  setTheme: PropTypes.bool,
+  theme: PropTypes.string,
   changeTheme: PropTypes.func,
 }
 
