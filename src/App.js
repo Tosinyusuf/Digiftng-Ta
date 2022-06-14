@@ -4,10 +4,9 @@ import { RouterConfig } from './navigation/RouterConfig';
 
 function App() {
   return (
-      // <BrowserRouter> 
-    <h1>hello world</h1>
-        //  <RouterConfig />
-      // </BrowserRouter> 
+      <BrowserRouter> 
+         <RouterConfig />
+      </BrowserRouter> 
   );
 }
 
